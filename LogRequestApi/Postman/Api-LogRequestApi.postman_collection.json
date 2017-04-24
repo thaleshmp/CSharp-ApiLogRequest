@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Api-LogRequestApi",
+		"_postman_id": "c561b034-41c9-4b98-54bb-ae749c4930cb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"url": "http://localhost:55720/api/values/post",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"key\": \"chave\",\n\t\"value\": \"valor\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
